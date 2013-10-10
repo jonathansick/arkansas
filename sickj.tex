@@ -8,7 +8,7 @@
 
 \bibliographystyle{asp2010}
 
-%\markboth{Author1, Author2, and Author3}{Author's Final Checklist}
+\markboth{Sick, Courteau and Cuillandre}{Andromeda Optical \& Infrared Disk Survey}
 
 \begin{document}
 
@@ -18,12 +18,54 @@
 \affil{$^2$Canada-France-Hawaii Telescope Corporation}
 
 \begin{abstract}
-Abstract Text.
+The Andromeda Optical and Infrared Disk Survey has mapped M31 in $u^* g^\prime r^\prime i^\prime J K_s$ wavelengths out to $R=40$~kpc using the MegaCam and WIRCam wide-field cameras on the Canada-France-Hawaii Telescope.
+Our survey is uniquely designed to simultaneously resolve stars while also carefully reproducing the surface brightness of M31, allowing us to study M31's global structure in the context of both resolved stellar populations and spectral energy distributions.
+We use the Elixir-LSB process to subtract backgrounds from the optical $u^* g^\prime r^\prime i^\prime$ images by building real-time maps of the sky background with sky-target nodding.
+These maps are stable to $\mu_g \lesssim 28.5$~mag~arcsec$^{-2}$ and reveal warps in the outer M31 disk in surface brightness.
+The equivalent mapping in the Near-Infrared with WIRCam uses a combination of sky-target nodding and image-to-image sky offset optimization to produce stable surface brightnesses, although a surface brightness zeropoint calibration using resolved stellar population is also required.
+A key application of this data set is to understand the systematics of spectral energy distribution fitting with near-infrared bands where asymptotic giant branch stars impose a significant, but ill-constrained, contribution to the near-infrared light of a galaxy.
+Here we present our panchromatic surface brightness maps of M31 and initial results from our near-infrared resolved stellar catalog.
 \end{abstract}
 
+\section{Introduction to the ANDROIDS Project}
+
+The Andromeda Galaxy (M31) is a special laboratory for testing our understanding of galaxy formation and evolution.
+Its close proximity enables detailed mapping of the star formation histories imprinted in resolved stellar populations, while our external vantage permits detailed decompositions of galaxy structures.
+Here we present the Andromeda Optical and Infrared Disk Survey (ANDROIDS): a homogeneous mapping of the entire Andromeda Galaxy from near-UV to near-infrared wavelengths with imaging that simultaneously resolves stars and accurately recovers surface brightness.
+This survey is being carried out with the MegaCam ($u^*g^\prime r^\prime i^\prime$) and WIRCam ($JK_s$) instruments on the Canada-France-Hawaii Telescope.
+ANDROIDS improves upon previous all-disk star catalogs \citep[e.g., the Local Group Galaxy Survey][]{Massey:2006} with improved seeing, superior $u^*$ sensitivity and incorporation of NIR bands.
+Previous surface brightness investigations of the M31 disk have either been confined to just encompass the 10~kpc star forming ring in SDSS optical imaging \citep{Tempel:2010} or to just the bulge in 2MASS NIR imaging \cite{Beaton:2007}.
+The ANDROIDS survey uses rigorous background subtraction strategies to obtain robust surface brightness measurements out to $R=40$~kpc along the disk.
+
+A prime motivation for the ANDROIDS survey, besides mapping M31's structure and stellar content, is to understand the systematics of stellar population synthesis, particularly in the near-infrared.
+Combining near-infrared (NIR) and optical data is invaluable for alleviating the well-known degeneracy between the stellar metallicity, age and dust content on a galaxy's colors.
+Near-infrared observations are also attractive for estimating the stellar mass of because they are nearly unattenuated by dust, while also being sensitive to lower mass mass that dominate a galaxy's mass.
+However, the wide-spread use of near-infrared bands has been stunted by our inability to consistently include them in spectral energy distribution (SED) fits.
+For example, \cite{Taylor:2011} have found that SED fits to optical-NIR data sets have much larger residuals than optical-only fits.
+Consequently, \cite{Zibetti:2009}, \cite{Taylor:2011} and others advocate ignoring NIR data in stellar mass estimation and instead rely upon $g-i$ colors.
+There are two options for resolving issues with NIR SEDs.
+First, the because the inclusion of NIR bands breaks degeneracies, our parameterizations of star-formation histories may be too simplistic.
+Note that is it common to fit galaxy SEDs with a single-metallicity stellar population and a parametric star formation rate; perhaps the NIR data begs for multiple metallicity components, complex star formation rate histories and more realistic dust models.
+A second possibility is that stellar population synthesis itself is unreliable at NIR wavelengths.
+This is entirely plausible if we realize that the dominant contributors of NIR light are actually asymptotic giant branch (AGB) stars whose fleeting evolution is extremely difficult to model.
+The ANDROIDS survey is well suited to pointing out tensions in NIR stellar population synthesis since a region's SED can be measured, while the resolved stars that contribute to that SED are also measured.
+
+\section{Low Surface Brightness Imaging of M31}
+
+Accurate surface brightness mapping is a unique quality of our ANDROIDS survey that is neglected by previous surveys.
+Covering the Andromeda Galaxy's disk requires fourteen 1-square degree pointings with MegaCam.
+Thus the background signal cannot be directly known, yet calibration systematics must be precisely controlled to avoid error propagation across the maps.
+For our optical maps we have used a new process called Elixir-LSB at the Canada-France-Hawaii Telescope that nods the telescope between sky reference fields and disk fields to carefully monitor background in our observations.
+The result are fantastic high-resolution maps that trace the stellar disk to 40 kpc with unprecedented stability.
+These calibrations are even more difficult in the near-infrared where the night sky background is over one thousand times brighter than Andromeda's disk.
+Previous near-infrared maps of the Andromeda Galaxy from the 2MASS survey have extremely large background residuals, making them reliable only for morphological studies of Andromeda's bright central bulge.
+Our survey has pushed the performance limits of near-infrared surface brightness calibration with extensive effort to understand how observing and calibration procedures can be optimized, and understanding how natural and instrumental phenomena limit the accuracy of near-infrared observations. This work has been published as Sick et al (2013; arxiv:1303.6290).
+The fundamental advantage of our rigorous surface brightness calibrations is that we can treat Andromeda as if it were a distant galaxy where standard practices for estimation star formation histories and stellar masses can be applied, while our high resolution allows us to test the systematics of these methods using resolved stellar populations.
+
+\section{Near-Infrared Stellar Populations}
 
 \acknowledgements TODO
 
-% \bibliography{master}
+\bibliography{master}
 
 \end{document}
