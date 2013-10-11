@@ -54,13 +54,25 @@ The ANDROIDS survey is well suited to pointing out tensions in NIR stellar popul
 
 Accurate surface brightness mapping is a unique quality of our ANDROIDS survey that is neglected by previous surveys.
 Covering the Andromeda Galaxy's disk requires fourteen 1-square degree pointings with MegaCam.
-Thus the background signal cannot be directly known, yet calibration systematics must be precisely controlled to avoid error propagation across the maps.
-For our optical maps we have used a new process called Elixir-LSB at the Canada-France-Hawaii Telescope that nods the telescope between sky reference fields and disk fields to carefully monitor background in our observations.
-The result are fantastic high-resolution maps that trace the stellar disk to 40 kpc with unprecedented stability.
-These calibrations are even more difficult in the near-infrared where the night sky background is over one thousand times brighter than Andromeda's disk.
-Previous near-infrared maps of the Andromeda Galaxy from the 2MASS survey have extremely large background residuals, making them reliable only for morphological studies of Andromeda's bright central bulge.
-Our survey has pushed the performance limits of near-infrared surface brightness calibration with extensive effort to understand how observing and calibration procedures can be optimized, and understanding how natural and instrumental phenomena limit the accuracy of near-infrared observations. This work has been published as Sick et al (2013; arxiv:1303.6290).
-The fundamental advantage of our rigorous surface brightness calibrations is that we can treat Andromeda as if it were a distant galaxy where standard practices for estimation star formation histories and stellar masses can be applied, while our high resolution allows us to test the systematics of these methods using resolved stellar populations.
+Thus the background signal cannot be directly known from a field on the disk, yet calibration systematics must be precisely controlled to avoid error propagation across the maps.
+For our CFHT/MegaCam optical mapping we have used a new process called Elixir-LSB that allows us to calibrate the surface brightness in an instrument that has previously been optimized for point-source surveys.
+The basic feature of the Elixir-LSB process is real-time background monitoring, which we do by covering with ANDROIDS footprint in a sky-target-target-sky nodding pattern with seven unique sky fields.
+We image the entire footprint in a period of 1~hour with a sky-target-target-sky nodding pattern that allows us to maintain a model of the background from a moving window of sky observations.
+This process is similar to the background subtraction done for NIR observations.
+The result is optical mosaics with modest integrations per field (15~minutes in $g^\prime r^\prime i^\prime$, 45~minutes in $u^*$) that reach surface brightness levels of $\mu_g \lesssim 28.5$~mag~arcsec$^{-2}$, while also having a pixel scale of 0.7~pc on the disk of M31.
+In Fig.~TODO we present the ANDROIDS optical mosaics.
+We have stretched the colour mapping in the outer disk to show that we have a stable surface brightness calibration out to the mosaic edge at $R=40$~kpc along the major axis.
+For the first time, the Northern spur in the M31 disk is seen in \emph{integrated} light, after first being detected by \cite{Ferguson:2002} in stellar density maps.
+Halos around foreground stars are the main sources of surface brightness contamination in our maps, but can be easily masked.
+The MegaCam $u^*g^\prime r^\prime i^\prime$ mosaics of M31 will enable studies of M31's structure, stellar mass and populations and dust content using the same tools that have been developed for more distant galaxies.
+
+Producing equivalent surface brightness maps at $J$ and $K_s$ is far more difficult, as outlined by \cite{Sick:2013}.
+The near-infrared sky glow is both bright, $10^3\times$ M31's NIR surface brightness at $R=20$~kpc, and variable in space and time.
+Although we attempted several sky-target nodding strategies, \cite{Sick:2013} find that nodding across a target as large as M31 introduces background level uncertainties at a level of 2\% of the NIR background.
+By solving for a set of background level offsets for each image that minimize image-to-image surface brightness discontinuities, we are able to get produce NIR mosaics that are stable to $< 0.1$\% of the background level.
+% The mosaics are limited by variations in the background shape with amplitudes of 0.2\% of the background level across a WIRCam frame.
+Since our background corrections are so large, $>1$\% of the NIR background level, our mosaics are subject to a zeropoint uncertainty that grows to 0.2~mag~arcsec$^{-2}$ at $R=15$~kpc.
+The absolute surface brightness, however, can be calibrated by appealing to the surface brightness of resolved stars.
 
 \section{Near-Infrared Stellar Populations}
 
