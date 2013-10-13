@@ -23,7 +23,7 @@ Our survey is uniquely designed to simultaneously resolve stars while also caref
 We use the Elixir-LSB process to subtract backgrounds from the optical $u^* g^\prime r^\prime i^\prime$ images by building real-time maps of the sky background with sky-target nodding.
 These maps are stable to $\mu_g \lesssim 28.5$~mag~arcsec$^{-2}$ and reveal warps in the outer M31 disk in surface brightness.
 The equivalent mapping in the near-infrared with WIRCam uses a combination of sky-target nodding and image-to-image sky offset optimization to produce stable surface brightnesses.
-A key application of this data set is to understand the systematics of spectral energy distribution fitting with near-infrared bands where asymptotic giant branch stars impose a significant, but ill-constrained, contribution to the near-infrared light of a galaxy.
+This study enables a detailed study of the systematics of of spectral energy distribution fitting with near-infrared bands where asymptotic giant branch stars impose a significant, but ill-constrained, contribution to the near-infrared light of a galaxy.
 Here we present our panchromatic surface brightness maps of M31 and initial results from our near-infrared resolved stellar catalog.
 \end{abstract}
 
@@ -33,15 +33,15 @@ The Andromeda Galaxy (M31) is a special laboratory for testing our understanding
 Its close proximity enables detailed mapping of the star formation histories imprinted in resolved stellar populations, while our external vantage permits detailed decompositions of galaxy structures.
 Here we present the Andromeda Optical and Infrared Disk Survey (ANDROIDS): a homogeneous mapping of the entire Andromeda Galaxy from near-UV to near-infrared (NIR) wavelengths with imaging that simultaneously resolves stars and accurately recovers surface brightness.
 This survey is being carried out with the MegaCam ($u^*g^\prime r^\prime i^\prime$) and WIRCam ($JK_s$) instruments on the Canada-France-Hawaii Telescope.
-ANDROIDS improves upon previous all-disk star catalogs \citep[e.g., the Local Group Galaxy Survey;][]{Massey:2006} with improved seeing, superior $u^*$ sensitivity and incorporation of NIR bands.
-Previous surface brightness investigations of the M31 disk have either been confined to just encompass the 10~kpc star forming ring in SDSS optical imaging \citep{Tamm:2012} or the bulge in 2MASS NIR imaging \cite{Beaton:2007}.
+ANDROIDS improves upon previous all-disk star catalogs \citep[e.g., the Local Group Galaxy Survey;][]{Massey:2006} with improved seeing, superior $u^*$ sensitivity and incorporation of deep NIR bands.
+Previous surface brightness investigations of the M31 disk have either barely reached the 10~kpc star forming ring in SDSS optical imaging \citep{Tamm:2012} or the bulge in 2MASS NIR imaging \cite{Beaton:2007}.
 The ANDROIDS survey uses rigorous background subtraction strategies to obtain robust surface brightness measurements out to $R=40$~kpc along the disk.
 
 A prime motivation for ANDROIDS, besides mapping M31's structure and stellar content, is to understand the systematics of stellar population synthesis, particularly in the NIR.
 Combining NIR and optical data is invaluable for alleviating the well-known degeneracy between the stellar metallicity, age and dust content on a galaxy's colors.
 However, the wide-spread use of NIR bands has been stunted by our inability to consistently include them in spectral energy distribution (SED) fits, as shown nicely by \cite{Taylor:2011}.
-This failure may be due either to insufficient modelling of star formation histories and dust, or because the NIR light itself is dominated by asymptotic giant branch (AGB) stars that are difficult to model.
-The ANDROIDS survey is well suited to pointing out tensions in NIR stellar population synthesis since a region's SED can be measured, while the resolved stars that contribute to that SED are also measured.
+This failure may be due either to inadequate modelling of star formation histories and dust, or because the NIR light itself is dominated by asymptotic giant branch (AGB) stars whose light is a challenge to most population synthesis models.
+The ANDROIDS survey is well suited to identify and resolve tensions in NIR stellar population synthesis since a region's SED can be measured, while the resolved stars that contribute to that SED are also measured.
 
 \section{Low Surface Brightness Imaging of M31}
 
@@ -53,8 +53,8 @@ The ANDROIDS survey is well suited to pointing out tensions in NIR stellar popul
 \end{figure}
 
 Covering the Andromeda Galaxy's disk requires fourteen 1-square degree pointings with MegaCam, but the background in these fields cannot be directly measured.
-For our CFHT/MegaCam optical mapping we have used a new process called Elixir-LSB that allows us to calibrate the surface brightness with real-time background monitoring  using a sky-target-target-sky nodding pattern.
-The result is optical mosaics with modest integrations (15~minutes in $g^\prime r^\prime i^\prime$, 45~minutes in $u^*$) that reach surface brightness levels of $\mu_g \lesssim 28.5$~mag~arcsec$^{-2}$, while also having a pixel scale of 0.7~pc on the disk of M31.
+For our CFHT/MegaCam optical mapping we have used a new method called Elixir-LSB that that enables calibrated surface brightness maps via real-time background monitoring  using a sky-target-target-sky nodding pattern.
+This yields optical mosaics with modest integrations (15~minutes in $g^\prime r^\prime i^\prime$, 45~minutes in $u^*$) that reach surface brightness levels of $\mu_g \lesssim 28.5$~mag~arcsec$^{-2}$, while also having a pixel scale of 0.7~pc on the disk of M31.
 The optical mosaics (Fig.~\ref{fig:mosaics}) have stable surface brightness calibration out to the mosaic edge at $R=40$~kpc, and for the first time, the Northern spur in the M31 disk is seen in \emph{integrated} light, after first being detected by \cite{Ferguson:2002} in stellar density maps.
 
 Producing equivalent surface brightness maps at $J$ and $K_s$ is far more difficult, as outlined by \cite{Sick:2013}.
@@ -68,7 +68,8 @@ Since the background corrections are so large, absolute surface brightness must 
 \begin{figure}[t]
 \centering
 \includegraphics[width=\columnwidth]{cmd}
-\caption{Near-infrared color magnitude diagrams of a field on the M31 disk major axis at $R=20$~kpc (right) and in the outer disk (left). Padova isochrones are over plotted with $\log Z/Z_\odot=0.2$ metallicity for various ages.}
+\caption{Near-infrared color magnitude diagrams with $\log Z/Z_\odot=0.2$ metallicity Padova isochrones overlaid for various ages.
+RGB sequences in the disk-halo transition (right) are nearly mono-abundance, while those in the outer optical disk (left) are broader due to multiple stellar populations are are redder than expected, likely due to additional extinction.}
 \label{fig:cmd}
 \end{figure}
 
@@ -77,14 +78,13 @@ A great advantage of NIR over optical photometry is that M31 NIR sequences have 
 Indeed, this is why previous resolved stellar population analyses of M31 \citep[e.g.,][]{Williams:2003} have been restricted to young ($<500$~Myr) populations.
 In Fig.~\ref{fig:cmd} we plot high metallicity ($\log Z/Z_\odot = 0.2$) Padova isochrones \citep{Marigo:2008} against two $J-K_s$ CMDs in the outer M31 disk.
 We find that our outer-disk NIR stellar populations are consistent with predominantly intermediate-age ($>1$~Gyr) high-metallicity population in agreement with HST observations by \cite{Brown:2006}.
-Stars in the disk-halo transition are nearly mono-abundance, while those in the outer optical disk are redder than expected, likely due to additional extinction.
 
 \section{Future Work}
 
-We intend ANDROIDS survey to become a panchromatic, optical to NIR, reference for the SED, structure and resolved stellar populations of M31's entire disk.
-This work is synergistic with the Panchromatic Hubble Andromeda Treasury Survey \citep{Dalcanton:2012} which has higher-resolution imaging of one quadrant of the M31 disk in a similar wavelength range, and the Pan-Andromeda Archaeological Survey \citep{McConnachie:2009} which has mapped M31's stellar halo with $g^\prime i^\prime$ imaging.
-% In future work we will exploit our mapping to understand the stellar mass decomposition in the M31 disk, halo and bulge and map map star formation histories and dusk content in M31.
-% And by confronting panchromatic SED fitting with resolved stellar populations, we will identify the tensions in near-infrared stellar population synthesis.
+% We intend ANDROIDS survey to become a panchromatic, optical to NIR, reference for the SED, structure and resolved stellar populations of M31's entire disk.
+ANDROIDS is synergistic with the high-resolution Panchromatic Hubble Andromeda Treasury Survey \citep{Dalcanton:2012}, and the halo mapping done by Pan-Andromeda Archaeological Survey \citep{McConnachie:2009}.
+In future work we will exploit our mapping to understand the stellar mass decomposition in the M31 disk, halo and bulge and map map star formation histories and dusk content in M31.
+And by confronting panchromatic SED fitting with resolved stellar populations, we will identify the tensions in near-infrared stellar population synthesis.
 
 \acknowledgements We thank Marc Seigar for organizing a wonderful conference. JS and SC acknowledge the support of NSERC.
 
