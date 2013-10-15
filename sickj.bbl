@@ -1,0 +1,99 @@
+\begin{thebibliography}{}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{{Beaton} et~al.(2007){Beaton}, {Majewski}, {Guhathakurta},
+  {Skrutskie}, {Cutri}, {Good}, {Patterson}, {Athanassoula}, \&
+  {Bureau}}]{Beaton:2007}
+{Beaton}, R.~L., {Majewski}, S.~R., {Guhathakurta}, P., {Skrutskie}, M.~F.,
+  {Cutri}, R.~M., {Good}, J., {Patterson}, R.~J., {Athanassoula}, E., \&
+  {Bureau}, M. 2007, \apjl, 658, L91
+
+\bibitem[{{Brown} et~al.(2006){Brown}, {Smith}, {Ferguson}, {Rich},
+  {Guhathakurta}, {Renzini}, {Sweigart}, \& {Kimble}}]{Brown:2006}
+{Brown}, T.~M., {Smith}, E., {Ferguson}, H.~C., {Rich}, R.~M., {Guhathakurta},
+  P., {Renzini}, A., {Sweigart}, A.~V., \& {Kimble}, R.~A. 2006, \apj, 652, 323
+
+\bibitem[{{Courteau} et~al.(2011){Courteau}, {Widrow}, {McDonald},
+  {Guhathakurta}, {Gilbert}, {Zhu}, {Beaton}, \& {Majewski}}]{Courteau:2011}
+{Courteau}, S., {Widrow}, L.~M., {McDonald}, M., {Guhathakurta}, P., {Gilbert},
+  K.~M., {Zhu}, Y., {Beaton}, R.~L., \& {Majewski}, S.~R. 2011, \apj, 739, 20
+
+\bibitem[{{Dalcanton} et~al.(2012){Dalcanton}, {Williams}, {Lang}, {Lauer},
+  {Kalirai}, {Seth}, {Dolphin}, {Rosenfield}, {Weisz}, {Bell}, {Bianchi},
+  {Boyer}, {Caldwell}, {Dong}, {Dorman}, {Gilbert}, {Girardi}, {Gogarten},
+  {Gordon}, {Guhathakurta}, {Hodge}, {Holtzman}, {Johnson}, {Larsen}, {Lewis},
+  {Melbourne}, {Olsen}, {Rix}, {Rosema}, {Saha}, {Sarajedini}, {Skillman}, \&
+  {Stanek}}]{Dalcanton:2012}
+{Dalcanton}, J.~J., {Williams}, B.~F., {Lang}, D., {Lauer}, T.~R., {Kalirai},
+  J.~S., {Seth}, A.~C., {Dolphin}, A., {Rosenfield}, P., {Weisz}, D.~R.,
+  {Bell}, E.~F., {Bianchi}, L.~C., {Boyer}, M.~L., {Caldwell}, N., {Dong}, H.,
+  {Dorman}, C.~E., {Gilbert}, K.~M., {Girardi}, L., {Gogarten}, S.~M.,
+  {Gordon}, K.~D., {Guhathakurta}, P., {Hodge}, P.~W., {Holtzman}, J.~A.,
+  {Johnson}, L.~C., {Larsen}, S.~S., {Lewis}, A., {Melbourne}, J.~L., {Olsen},
+  K.~A.~G., {Rix}, H.-W., {Rosema}, K., {Saha}, A., {Sarajedini}, A.,
+  {Skillman}, E.~D., \& {Stanek}, K.~Z. 2012, \apjs, 200, 18
+
+\bibitem[{{Ferguson} et~al.(2002){Ferguson}, {Irwin}, {Ibata}, {Lewis}, \&
+  {Tanvir}}]{Ferguson:2002}
+{Ferguson}, A.~M.~N., {Irwin}, M.~J., {Ibata}, R.~A., {Lewis}, G.~F., \&
+  {Tanvir}, N.~R. 2002, \aj, 124, 1452
+
+\bibitem[{{Marigo} et~al.(2008){Marigo}, {Girardi}, {Bressan}, {Groenewegen},
+  {Silva}, \& {Granato}}]{Marigo:2008}
+{Marigo}, P., {Girardi}, L., {Bressan}, A., {Groenewegen}, M.~A.~T., {Silva},
+  L., \& {Granato}, G.~L. 2008, \aap, 482, 883
+
+\bibitem[{{Massey} et~al.(2006){Massey}, {Olsen}, {Hodge}, {Strong}, {Jacoby},
+  {Schlingman}, \& {Smith}}]{Massey:2006}
+{Massey}, P., {Olsen}, K.~A.~G., {Hodge}, P.~W., {Strong}, S.~B., {Jacoby},
+  G.~H., {Schlingman}, W., \& {Smith}, R.~C. 2006, \aj, 131, 2478
+
+\bibitem[{{McConnachie} et~al.(2009){McConnachie}, {Irwin}, {Ibata},
+  {Dubinski}, {Widrow}, {Martin}, {C{\^o}t{\'e}}, {Dotter}, {Navarro},
+  {Ferguson}, {Puzia}, {Lewis}, {Babul}, {Barmby}, {Bienaym{\'e}}, {Chapman},
+  {Cockcroft}, {Collins}, {Fardal}, {Harris}, {Huxor}, {Mackey},
+  {Pe{\~n}arrubia}, {Rich}, {Richer}, {Siebert}, {Tanvir}, {Valls-Gabaud}, \&
+  {Venn}}]{McConnachie:2009}
+{McConnachie}, A.~W., {Irwin}, M.~J., {Ibata}, R.~A., {Dubinski}, J., {Widrow},
+  L.~M., {Martin}, N.~F., {C{\^o}t{\'e}}, P., {Dotter}, A.~L., {Navarro},
+  J.~F., {Ferguson}, A.~M.~N., {Puzia}, T.~H., {Lewis}, G.~F., {Babul}, A.,
+  {Barmby}, P., {Bienaym{\'e}}, O., {Chapman}, S.~C., {Cockcroft}, R.,
+  {Collins}, M.~L.~M., {Fardal}, M.~A., {Harris}, W.~E., {Huxor}, A., {Mackey},
+  A.~D., {Pe{\~n}arrubia}, J., {Rich}, R.~M., {Richer}, H.~B., {Siebert}, A.,
+  {Tanvir}, N., {Valls-Gabaud}, D., \& {Venn}, K.~A. 2009, \nat, 461, 66
+
+\bibitem[{{Sick} et~al.(2013){Sick}, {Courteau}, {Cuillandre}, {McDonald}, {de
+  Jong}, \& {Tully}}]{Sick:2013}
+{Sick}, J., {Courteau}, S., {Cuillandre}, J.-C., {McDonald}, M., {de Jong}, R.,
+  \& {Tully}, R.~B. 2013, ArXiv e-prints. \eprint{1303.6290}
+
+\bibitem[{{Tamm} et~al.(2012){Tamm}, {Tempel}, {Tenjes}, {Tihhonova}, \&
+  {Tuvikene}}]{Tamm:2012}
+{Tamm}, A., {Tempel}, E., {Tenjes}, P., {Tihhonova}, O., \& {Tuvikene}, T.
+  2012, \aap, 546, A4
+
+\bibitem[{{Taylor} et~al.(2011){Taylor}, {Hopkins}, {Baldry}, {Brown},
+  {Driver}, {Kelvin}, {Hill}, {Robotham}, {Bland-Hawthorn}, {Jones}, {Sharp},
+  {Thomas}, {Liske}, {Loveday}, {Norberg}, {Peacock}, {Bamford}, {Brough},
+  {Colless}, {Cameron}, {Conselice}, {Croom}, {Frenk}, {Gunawardhana},
+  {Kuijken}, {Nichol}, {Parkinson}, {Phillipps}, {Pimbblet}, {Popescu},
+  {Prescott}, {Sutherland}, {Tuffs}, {van Kampen}, \&
+  {Wijesinghe}}]{Taylor:2011}
+{Taylor}, E.~N., {Hopkins}, A.~M., {Baldry}, I.~K., {Brown}, M.~J.~I.,
+  {Driver}, S.~P., {Kelvin}, L.~S., {Hill}, D.~T., {Robotham}, A.~S.~G.,
+  {Bland-Hawthorn}, J., {Jones}, D.~H., {Sharp}, R.~G., {Thomas}, D., {Liske},
+  J., {Loveday}, J., {Norberg}, P., {Peacock}, J.~A., {Bamford}, S.~P.,
+  {Brough}, S., {Colless}, M., {Cameron}, E., {Conselice}, C.~J., {Croom},
+  S.~M., {Frenk}, C.~S., {Gunawardhana}, M., {Kuijken}, K., {Nichol}, R.~C.,
+  {Parkinson}, H.~R., {Phillipps}, S., {Pimbblet}, K.~A., {Popescu}, C.~C.,
+  {Prescott}, M., {Sutherland}, W.~J., {Tuffs}, R.~J., {van Kampen}, E., \&
+  {Wijesinghe}, D. 2011, \mnras, 418, 1587
+
+\bibitem[{{Williams}(2003)}]{Williams:2003}
+{Williams}, B.~F. 2003, \aj, 126, 1312
+
+\end{thebibliography}
